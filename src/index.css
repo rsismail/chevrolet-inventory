@@ -6038,6 +6038,24 @@ color: #373637;
   background-repeat: no-repeat;
   background-color: #4893eb;
 }
+.downPaymentDropDownWrapper {
+  position: relative;
+  box-sizing: border-box;
+  height: 231px;
+  width: 100%;
+  background-color: #fff;
+  padding: 32px 27px 40px 24px;
+  position: absolute;
+  top: 290px;
+  left: 0;
+  box-shadow: 0 0 36px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+  z-index: 2;
+  -webkit-animation: downPaymentGrowOut .5s ease-in-out forwards;
+  animation: downPaymentGrowOut .5s ease-in-out forwards;
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+}
 
 
     }
